@@ -1,0 +1,9 @@
+Cliente: Quais sao os Pokemons Iniciais da Sexta Geracao?
+ChatBot: São eles: Chespin - Tipo Planta, Fennekin - Tipo Fogo, Froakie - Tipo Água
+Cliente:Quais sao os Protagonistas de Pokemon?
+ChatBot:Ash - Treinador Pokemon, Pikachu - Pokémon Parceiro de Ash
+Cliente:Qual e o Pokemon de número 59 na Pokedex?
+ChatBot:Arcanine - Tipo Fogo
+Cliente:O Arcanine possui uma variante regional? Se sim, quantas?
+ChatBot:Possui apenas 1 forma, a Hisuian Form.
+
