@@ -1,14 +1,14 @@
-def  saudacoes (nome):
+def saudacoes_GUI(nome):
     import random
-    frases = ["Bom dia! Meu nome é " + nome + " Como vai você?", "Oi, qual a sua pergunta?", "Olá, tudo bem?", "Opa, tudo bom?"]
-    print(frases[random.randint(0, 3)])
+    frases = ["Bom dia, Meu nome é "+ nome +" Como vai voce?", "Olá", "Oi, qual sua pergunta?"]
+    print(frases[random.randint(0,2)])
 
 def recebeTexto():
     texto = "Cliente: " + input("Cliente: ")
-    palavrasProibidas = ["Idiota", "Animal", "Bunda mole", "Aberração", "Bobão", "Bocó", "Tongo", "Burro"]
-    for p in palavrasProibidas:
+    palavraProibidas = ["idiota", "burro", "bobão", "canalha"]
+    for p in palavraProibidas:
         if p in texto:
-            print("Oxi, vai me xingar? Frustrado. VEM PRA CIMA ENTÃO, QUERO VER TU AGUENTAR")
+            print("IXI RAPA, VEM ME OFENDER NÃO")
             return recebeTexto()
         return texto
     
@@ -22,23 +22,17 @@ def buscaResposta(nome, texto):
                     print(nome + "Volte sempre!")
                     return "fim"
                 elif viu.strip() == texto.strip():
-                    proximaLinha = conhecimento.readline
-                    if "ChatBot: " in proximaLinha:
+                    proximaLinha = conhecimento.readline()
+                    if "Chatbot: " in proximaLinha:
                         return proximaLinha
-                    
-            else: 
-                print("Me desculpe, não sei a resposta. I don't know my friend")
+            else:
+                print("Me desculpe, nao sei oque falar")
                 conhecimento.write("\n" + texto)
                 respostaUser = input("O que esperava? \n")
-                conhecimento.write("\n" + "ChatBot" + respostaUser)
-                return "Recebi o conhecimento, Meu Nobre!"
+                conhecimento.write("\n" + "Chatbot: " + respostaUser)
+                return "Obrigado pelo comercimento"
             
-def exibeResposta(resposta, nome):
-    print(resposta.replace("ChatBot", nome))
-    if resposta == "fim":
-        return "fim"
-    return "continua"
+def exibeResposta_GUI(texto, resposta, nome):
+    return resposta.replace("ChatBot", nome)
 
 
-
-    

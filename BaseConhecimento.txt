@@ -1,9 +1,12 @@
-Cliente: Quais sao os Pokemons Iniciais da Sexta Geracao?
-ChatBot: São eles: Chespin - Tipo Planta, Fennekin - Tipo Fogo, Froakie - Tipo Água
-Cliente:Quais sao os Protagonistas de Pokemon?
-ChatBot:Ash - Treinador Pokemon, Pikachu - Pokémon Parceiro de Ash
-Cliente:Qual e o Pokemon de número 59 na Pokedex?
-ChatBot:Arcanine - Tipo Fogo
-Cliente:O Arcanine possui uma variante regional? Se sim, quantas?
-ChatBot:Possui apenas 1 forma, a Hisuian Form.
+Cliente: Iniciais da primeira geração
+Chatbot: Squirtle- Tipo agua, Charmander- tipo fogo, Bulbasaur- tipo grama
+Cliente: Iniciais da segunda geração 
+Chatbot: Totodile- Tipo agua, Cyndaquil- tipo fogo, Chicorita- tipo grama
+Cliente: Iniciais da terceira geração 
+Chatbot: Mudkip- Tipo agua, Torchic- tipo fogo, Trecko- tipo grama
 
+
+Cliente: Iniciais da primeira geracao
+Chatbot: Squirtle, charmander e bulbasaur
+Cliente: & "C:/Users/Aluno CtrlPlay/AppData/Local/Microsoft/WindowsApps/python3.12.exe" "c:/Users/Aluno CtrlPlay/OneDrive/Documentos/Arcanine1507/InterfaceGrafica.py"
+Chatbot: & "C:/Users/Aluno CtrlPlay/AppData/Local/Microsoft/WindowsApps/python3.12.exe"
